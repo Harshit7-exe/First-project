@@ -27,8 +27,8 @@ while max(player_scores) < max_score:
         print("Your total score is:", player_scores[player_index], "\n")
         current_score = 0
         while True:
-            should_roll = input("Would youlike to roll (y) ?")
-            if should_roll.lower() != "y":
+            should_roll = input("Would you like to roll (yes) ?")
+            if should_roll.lower() != "Yes":
                 break
 
             value = roll()
